@@ -23,6 +23,6 @@ func main() {
 
 	case "serve":
 		fmt.Println("serving at http://localhost:8080")
-		http.ListenAndServe(":8080", http.FileServer(http.Dir("./build")))
+		http.ListenAndServe(":8080", http.FileServer(http.Dir("./docs")))
 	}
 }

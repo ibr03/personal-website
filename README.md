@@ -14,7 +14,7 @@ This project was created to learn:
 
 ```text
 .
-├── build/       # generated static site
+├── docs/       # generated static site
 ├── pages/       # markdown content
 ├── static/      # css, images, icons
 ├── templates/   # html templates

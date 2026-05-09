@@ -17,9 +17,9 @@ type Page struct {
 }
 
 func Build() error {
-	// clean build/
-	os.RemoveAll("build")
-	os.MkdirAll("build", 0755)
+	// clean docs/
+	os.RemoveAll("docs")
+	os.MkdirAll("docs", 0755)
 
 	// load template
 	tmpl, err := template.ParseFiles("templates/base.html")
@@ -60,9 +60,9 @@ func Build() error {
 		name := strings.TrimSuffix(file.Name(), ".md")
 		var outDir string
 		if name == "index" {
-			outDir = "build"
+			outDir = "docs"
 		} else {
-			outDir = filepath.Join("build", name)
+			outDir = filepath.Join("docs", name)
 		}
 		os.MkdirAll(outDir, 0755)
 
@@ -77,7 +77,7 @@ func Build() error {
 	}
 
 	// copy static files
-	err = copyDir("static", "build")
+	err = copyDir("static", "docs")
 	if err != nil {
 		return err
 	}
