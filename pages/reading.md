@@ -8,9 +8,9 @@ Tracking books I started reading.
 
 ## 2026
 
-### [Operating System Concepts](https://en.wikipedia.org/wiki/Operating_System_Concepts)
+### [The Emperor of All Maladies](https://en.wikipedia.org/wiki/The_Emperor_of_All_Maladies)
 
-Abraham Silberschatz
+Siddhartha Mukherjee
 *Currently reading*
 
 ### [The Power Of Now](https://en.wikipedia.org/wiki/The_Power_of_Now)
